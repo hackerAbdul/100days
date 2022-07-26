@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Tables lesson 2
+        </title>
+        <link rel="stylesheet" href="table.css">
+    </head>
+
+
+    <body>
+        <h1>Tables and why we use them</h1>
+
+        <h2>Todays LO</h2>
+        <ul>
+            <li>Colspan vs rowspan</li>
+            <li>Making a complex table</li>
+            <li>video source</li>
+        </ul>
+
+        <table border="1px" width="50%">
+            
+            <thead>
+              <tr>
+                <th>Month</th>
+                <th>Savings</th>
+              </tr>
+            </thead>
+            <tbody class="">
+              <tr>
+                <td>January</td>
+                <td>$100</td>
+              </tr>
+              <tr>
+                <td>February</td>
+                <td>$80</td>
+              </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                  <td>Sum</td>
+                  <td>$180</td>
+                </tr>
+                <tr>
+                  <td>total</td>
+                  <td>$250</td>
+                </tr>
+            </tfoot>
+            
+          </table>
+
+        </br>
+        </br>
+        </br>
+        </br>
+
+        
+
+        <caption>Table on students and their marks</caption>
+        <table border="1px" width="50%">
+            <tr>
+                <th>Name</th>
+                <th>Subject</th>
+                <th>Marks</th>
+            </tr>
+            <tr>
+                <td rowspan = "2">Hillary</td>
+                <td>Advanced Web</td>
+                <td>75</td>
+            </tr>
+            <tr>
+                <td>Operating Syatem</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td rowspan = "2">Lary</td>
+                <td>Advanced Web</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Operating Syatem</td>
+                <td>75</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td colspan="3">Total Average: 72.5</td>
+            </tr>
+        </table>
+
+        <br>
+        <br>
+        
+        <table border="1px" width="50%" >
+            <tr>
+                <th>Name</th>
+                <th>City</th>
+                <th>Time Spent</th>
+            </tr>
+
+            <tr>
+                <td rowspan="5">Abdulkadir</td>
+                <td>Birmingham</td>
+                <td>2022</td>
+            </tr>
+            <tr>
+                <td>London</td>
+                <td>2021</td>
+            </tr>
+            <tr>
+                <td>Manny</td>
+                <td>2016</td>
+            </tr>
+            <tr>
+                <td>Sheffield</td>
+                <td>2014</td>
+            </tr>
+            <tr>
+                <td>Glasgow</td>
+                <td>2015</td>
+            </tr>
+
+            <tr>
+                <td>Ayaan</td>
+                <td>London</td>
+                <td>Entire Life</td>
+            </tr>
+
+            <tr>
+                <td rowspan="2">Ridwan</td>
+                <td>Birmingham</td>
+                <td>2022</td>
+            </tr>
+            <tr>
+                <td>Edinburgh</td>
+                <td>2011</td>
+            </tr>
+
+            <tr>
+                <td colspan="3">yasmin</td>
+
+            </tr>
+
+        </table>
+
+
+        <table border="1px">
+            <thead>
+                <tr>
+                    <td>X</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                </tr>
+            </thead>
+
+            <tbody class="a">
+                <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>2</td>
+                    <td>4</td>
+                    <td>6</td>
+                    <td>8</td>
+                    <td>10</td>
+                    <td>12</td>
+                    <td>14</td>
+                    <td>16</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>3</td>
+                    <td>6</td>
+                    <td>9</td>
+                    <td>12</td>
+                    <td>15</td>
+                    <td>18</td>
+                    <td>21</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>4</td>
+                    <td>8</td>
+                    <td>12</td>
+                    <td>16</td>
+                    <td>20</td>
+                    <td>24</td>
+                    <td>28</td>
+                    <td>32</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>5</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>25</td>
+                    <td>30</td>
+                    <td>35</td>
+                    <td>40</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>6</td>
+                    <td>12</td>
+                    <td>18</td>
+                    <td>24</td>
+                    <td>30</td>
+                    <td>36</td>
+                    <td>42</td>
+                    <td>48</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>7</td>
+                    <td>7</td>
+                    <td>14</td>
+                    <td>21</td>
+                    <td>28</td>
+                    <td>35</td>
+                    <td>42</td>
+                    <td>49</td>
+                    <td>56</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>8</td>
+                    <td>16</td>
+                    <td>24</td>
+                    <td>32</td>
+                    <td>40</td>
+                    <td>48</td>
+                    <td>56</td>
+                    <td>64</td>
+                </tr>
+            </tfoot>
+            <br>
+            <br>
+            <br>
+        </table>
+    </body>
+
+</html>
