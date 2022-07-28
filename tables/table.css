@@ -1,5 +1,9 @@
 td {
-    text-align: center;
+    text-align: left;
+}
+
+table{
+    width: 50%;
 }
 
 table, td, th {
@@ -7,3 +11,4 @@ table, td, th {
     border-collapse: collapse;
     background-color: lightslategray;
 }
+

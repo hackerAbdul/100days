@@ -1,0 +1,23 @@
+h1{
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+}
+
+p{
+    font-size: larger;
+}
+
+*{
+    background-color: beige;
+}
+
+ul{
+    padding-left: 100px;
+}
+
+li, p{
+    color: black;
+    
+}
+
