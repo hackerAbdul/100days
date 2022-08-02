@@ -1,0 +1,29 @@
+.red-box{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+    border: 10px solid brown;
+    padding: 100px;
+}
+
+#green-box{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 10px solid brown;
+    float: right;
+    padding-right: 50px;
+}
+
+.blue-box{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    border: 10px solid brown;
+    margin: 10px;
+    padding-top: 50px;
+}
