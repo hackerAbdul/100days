@@ -20,3 +20,12 @@ li, p{
     color: black;
 }
 
+#green-box{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    float: right;
+    padding-right: 50px;
+    margin-right: 100px;
+}
+

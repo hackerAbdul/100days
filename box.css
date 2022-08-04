@@ -2,9 +2,9 @@
     text-align: center;
     width: 100px;
     height: 100px;
-    background-color: red;
+
     margin: 10px;
-    border: 10px solid brown;
+
     padding: 100px;
 }
 
@@ -12,18 +12,54 @@
     text-align: center;
     width: 100px;
     height: 100px;
-    background-color: green;
-    border: 10px solid brown;
     float: right;
     padding-right: 50px;
 }
 
 .blue-box{
+    width: 100px;
+    height: 100px;
+
+
+    margin: 10px;
+    padding: 200px;
+}
+img{
+    width: 50px;
+    height: 75px;
+}
+
+
+.black-box{
+    text-align: center;
+    color: white;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: 10px;
+    border: 10px solid brown;
+    padding: 100px;
+    margin-top: 200px;
+}
+
+#grey-box{
+    text-align: center;
+    color: pink;
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 10px solid brown;
+    margin-left: 700px;
+    padding-right: 50px;
+}
+
+.pink-box{
     text-align: center;
     width: 100px;
     height: 100px;
-    background-color: blue;
+    background-color: pink;
     border: 10px solid brown;
     margin: 10px;
     padding-top: 50px;
 }
+
