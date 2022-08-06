@@ -28,3 +28,70 @@ li a {
 li a:hover {
     background-color: #111;
 }
+
+table, tr, th, td{
+    border: 1px solid black;
+    background-color: #251351;
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+img{
+    height: 450px;
+    width: 700px;
+}
+
+.Sweden{
+    height: 500px;
+    width: 500px;
+    margin: 10px;
+}
+
+.Finland{
+    height: 500px;
+    width: 500px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 120px;
+}
+
+.Spain{
+    height: 500px;
+    width: 500px;
+    float: right;
+    margin-left: 10px;
+    margin-top: 120px;
+}
+
+.Turkey{
+    margin-top: 200px;
+    margin-left: 10px;
+    height: 500px;
+    float: left;
+}
+
+.Egypt{
+    margin: 100px;
+    height: 500px;
+    width: 500px;
+    float: right;
+}
+
+#right-img{
+    width: 500px;
+}
+
+body{
+    background-color: #C97B84;
+}
+
+h1{
+    color: #040926;
+}
+
+h2{
+    color: #7D2E68;
+}
