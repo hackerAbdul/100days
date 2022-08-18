@@ -1,0 +1,17 @@
+div{
+    text-align: right;
+}
+
+#middle{
+    text-align: center;
+}
+
+img{
+    width: 240px;
+    height: 345px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
